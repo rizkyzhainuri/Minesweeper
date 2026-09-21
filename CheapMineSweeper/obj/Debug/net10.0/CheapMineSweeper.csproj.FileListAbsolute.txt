@@ -1,0 +1,14 @@
+G:\1 Progs\Minesweeper\CheapMineSweeper\bin\Debug\net10.0\CheapMineSweeper.exe
+G:\1 Progs\Minesweeper\CheapMineSweeper\bin\Debug\net10.0\CheapMineSweeper.deps.json
+G:\1 Progs\Minesweeper\CheapMineSweeper\bin\Debug\net10.0\CheapMineSweeper.runtimeconfig.json
+G:\1 Progs\Minesweeper\CheapMineSweeper\bin\Debug\net10.0\CheapMineSweeper.dll
+G:\1 Progs\Minesweeper\CheapMineSweeper\bin\Debug\net10.0\CheapMineSweeper.pdb
+G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\CheapMineSweeper.GeneratedMSBuildEditorConfig.editorconfig
+G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\CheapMineSweeper.AssemblyInfoInputs.cache
+G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\CheapMineSweeper.AssemblyInfo.cs
+G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\CheapMineSweeper.csproj.CoreCompileInputs.cache
+G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\CheapMineSweeper.dll
+G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\refint\CheapMineSweeper.dll
+G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\CheapMineSweeper.pdb
+G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\CheapMineSweeper.genruntimeconfig.cache
+G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\ref\CheapMineSweeper.dll
