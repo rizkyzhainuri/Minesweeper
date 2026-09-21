@@ -12,3 +12,4 @@ G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\refint\CheapMineSweepe
 G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\CheapMineSweeper.pdb
 G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\CheapMineSweeper.genruntimeconfig.cache
 G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\ref\CheapMineSweeper.dll
+G:\1 Progs\Minesweeper\CheapMineSweeper\obj\Debug\net10.0\CheapMineSweeper.sourcelink.json

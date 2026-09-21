@@ -13,7 +13,7 @@ bool isRunning = true;
 bool gameStarted = false;
 
 
-
+// game-loop
 while (isRunning)
 {
     Console.Clear();
@@ -30,14 +30,15 @@ while (isRunning)
     }
 }
 
+// this draw the square. currently 5x5
 void Draw()
 {
     int iterate = 0;
     Console.WriteLine(" ");
     Console.WriteLine("------- Cheap Minesweeper! -------\n");
-    Console.WriteLine($"        Total Mines(s) : {difficulty}");
-    Console.WriteLine("        Guess the number.");
-    Console.WriteLine(" Hope you don't step on a mine.\n");
+    Console.WriteLine($"       Total Mines(s) : {difficulty}");
+    Console.WriteLine("   Guess the number. Q to quit");
+    Console.WriteLine("  Hope you don't step on a mine.\n");
     for (int i = 0; i < 5; i++)
     {   
         for (int j = 0; j < 5; j++)
@@ -75,6 +76,11 @@ void SetDifficulty()
 
     if (set != null)
     {
+        if (set == "q" || set == "Q")
+        {
+            Quit();
+        }
+
         if(int.TryParse(set, out int result))
         {
             result = Math.Clamp(result, 1, 10);
@@ -131,7 +137,12 @@ void StartGame()
     playerChoice = Console.ReadLine();
 
     if (playerChoice != null)
-    {
+    {   
+        if (playerChoice == "q" || playerChoice == "Q")
+        {
+            Quit();
+        }
+
         if (int.TryParse(playerChoice, out int result))
         {
             picked++;
@@ -157,4 +168,13 @@ void StartGame()
     {
         playerChoice = Console.ReadLine();
     }
+}
+
+void Quit()
+{
+    Console.Clear();
+    Draw();
+
+    Console.WriteLine("Quit- ?");
+    isRunning = false;
 }
