@@ -13,6 +13,7 @@ bool isRunning = true;
 bool gameStarted = false;
 
 
+
 while (isRunning)
 {
     Console.Clear();
