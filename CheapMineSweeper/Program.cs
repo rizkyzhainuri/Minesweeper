@@ -112,6 +112,7 @@ void GameOver()
     Draw();
 
     Console.WriteLine("KA-BOOOOM ! You lose.");
+    Console.ReadKey();
     
     gameStarted = false;
     isRunning = false;
@@ -124,6 +125,7 @@ void GameWin()
 
     Console.WriteLine("WO-HOOOOO ! Congratulations.");
     Console.WriteLine("You survived ! ");
+    Console.ReadKey();
     
     gameStarted = false;
     isRunning = false;
